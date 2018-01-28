@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871E614E1E5F7A220060AA1B /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E614D1E5F7A220060AA1B /* MainMenuViewController.swift */; };
+		872FD1F11EA2979C006F2B6C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872FD1F01EA2979C006F2B6C /* NotificationViewController.swift */; };
 		874635751E14FCD000C3B524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874635741E14FCD000C3B524 /* AppDelegate.swift */; };
 		874635771E14FCD000C3B524 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874635761E14FCD000C3B524 /* FirstViewController.swift */; };
 		874635791E14FCD000C3B524 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874635781E14FCD000C3B524 /* SecondViewController.swift */; };
@@ -15,6 +17,25 @@
 		874635811E14FCD000C3B524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8746357F1E14FCD000C3B524 /* LaunchScreen.storyboard */; };
 		8746358C1E14FCD000C3B524 /* Pernord_CustomerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8746358B1E14FCD000C3B524 /* Pernord_CustomerTests.swift */; };
 		874635971E14FCD000C3B524 /* Pernord_CustomerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874635961E14FCD000C3B524 /* Pernord_CustomerUITests.swift */; };
+		875AA74D1EA498AD00C29031 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875AA74C1EA498AD00C29031 /* Constants.swift */; };
+		876D29201E8A948600A539B4 /* MyPoints2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876D291F1E8A948600A539B4 /* MyPoints2ViewController.swift */; };
+		876D29221E8AA51600A539B4 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876D29211E8AA51600A539B4 /* ChangePasswordViewController.swift */; };
+		876D29241E8AB9F500A539B4 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876D29231E8AB9F500A539B4 /* TipsViewController.swift */; };
+		876D29261E8ABC9000A539B4 /* TipsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876D29251E8ABC9000A539B4 /* TipsDetailViewController.swift */; };
+		8779CDE21E59C56E00F67F74 /* MyBottleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779CDE11E59C56E00F67F74 /* MyBottleViewController.swift */; };
+		877A20EA1EE31173001AE7DD /* MyQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A20E91EE31173001AE7DD /* MyQRViewController.swift */; };
+		877A20EC1EE329D7001AE7DD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A20EB1EE329D7001AE7DD /* SettingsViewController.swift */; };
+		877A20EE1EE32B2F001AE7DD /* Settings2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A20ED1EE32B2F001AE7DD /* Settings2ViewController.swift */; };
+		877A20F01EE32D20001AE7DD /* MyPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A20EF1EE32D20001AE7DD /* MyPointsViewController.swift */; };
+		877A20F21EE32DA3001AE7DD /* MyPoints3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A20F11EE32DA3001AE7DD /* MyPoints3ViewController.swift */; };
+		878627DA1EDB1FDE00D08AC3 /* LoginFailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878627D91EDB1FDD00D08AC3 /* LoginFailedViewController.swift */; };
+		879B2D7C1F71618D004BCFEA /* QRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B2D7B1F71618C004BCFEA /* QRCodeScannerViewController.swift */; };
+		879B2D7E1F71A791004BCFEA /* MyBottle3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B2D7D1F71A791004BCFEA /* MyBottle3ViewController.swift */; };
+		87A3A8C51EE1D3EE00CEA1A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3A8C41EE1D3EE00CEA1A2 /* ProfileViewController.swift */; };
+		87C57D541EDEB118009D3B12 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87C57D521EDEB118009D3B12 /* DataModel.xcdatamodeld */; };
+		87FBEDC41E67C0BA00E2F00B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FBEDC31E67C0BA00E2F00B /* SignUpViewController.swift */; };
+		87FBEDC61E67C4E900E2F00B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FBEDC51E67C4E900E2F00B /* SignInViewController.swift */; };
+		F48ABBC77EA70CED1AE44D0D /* Pods_Pernord_Customer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1BA727437B477B936CE079 /* Pods_Pernord_Customer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1BA727437B477B936CE079 /* Pods_Pernord_Customer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pernord_Customer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		871E614D1E5F7A220060AA1B /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		872FD1F01EA2979C006F2B6C /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		874635711E14FCD000C3B524 /* Pernord Customer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pernord Customer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		874635741E14FCD000C3B524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		874635761E14FCD000C3B524 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +73,26 @@
 		874635921E14FCD000C3B524 /* Pernord CustomerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pernord CustomerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		874635961E14FCD000C3B524 /* Pernord_CustomerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pernord_CustomerUITests.swift; sourceTree = "<group>"; };
 		874635981E14FCD000C3B524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875AA74C1EA498AD00C29031 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		876D291F1E8A948600A539B4 /* MyPoints2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPoints2ViewController.swift; sourceTree = "<group>"; };
+		876D29211E8AA51600A539B4 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		876D29231E8AB9F500A539B4 /* TipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		876D29251E8ABC9000A539B4 /* TipsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsDetailViewController.swift; sourceTree = "<group>"; };
+		8779CDE11E59C56E00F67F74 /* MyBottleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBottleViewController.swift; sourceTree = "<group>"; };
+		877A20E91EE31173001AE7DD /* MyQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQRViewController.swift; sourceTree = "<group>"; };
+		877A20EB1EE329D7001AE7DD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		877A20ED1EE32B2F001AE7DD /* Settings2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings2ViewController.swift; sourceTree = "<group>"; };
+		877A20EF1EE32D20001AE7DD /* MyPointsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPointsViewController.swift; sourceTree = "<group>"; };
+		877A20F11EE32DA3001AE7DD /* MyPoints3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPoints3ViewController.swift; sourceTree = "<group>"; };
+		878627D91EDB1FDD00D08AC3 /* LoginFailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFailedViewController.swift; sourceTree = "<group>"; };
+		879B2D7B1F71618C004BCFEA /* QRCodeScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeScannerViewController.swift; sourceTree = "<group>"; };
+		879B2D7D1F71A791004BCFEA /* MyBottle3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBottle3ViewController.swift; sourceTree = "<group>"; };
+		87A3A8C41EE1D3EE00CEA1A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		87C57D531EDEB118009D3B12 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		87FBEDC31E67C0BA00E2F00B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		87FBEDC51E67C4E900E2F00B /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C8EC40B00A5DD61B85B58848 /* Pods-Pernord Customer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pernord Customer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pernord Customer/Pods-Pernord Customer.debug.xcconfig"; sourceTree = "<group>"; };
+		D509D9450C8340EA3148804A /* Pods-Pernord Customer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pernord Customer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pernord Customer/Pods-Pernord Customer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48ABBC77EA70CED1AE44D0D /* Pods_Pernord_Customer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0489171783E37F6AE8ACD87F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F1BA727437B477B936CE079 /* Pods_Pernord_Customer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77931B23C2FA61FF3C0FA4F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8EC40B00A5DD61B85B58848 /* Pods-Pernord Customer.debug.xcconfig */,
+				D509D9450C8340EA3148804A /* Pods-Pernord Customer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		874635681E14FCCF00C3B524 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				8746358A1E14FCD000C3B524 /* Pernord CustomerTests */,
 				874635951E14FCD000C3B524 /* Pernord CustomerUITests */,
 				874635721E14FCD000C3B524 /* Products */,
+				77931B23C2FA61FF3C0FA4F8 /* Pods */,
+				0489171783E37F6AE8ACD87F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +167,29 @@
 				874635761E14FCD000C3B524 /* FirstViewController.swift */,
 				874635781E14FCD000C3B524 /* SecondViewController.swift */,
 				8746357A1E14FCD000C3B524 /* Main.storyboard */,
-				8746357D1E14FCD000C3B524 /* Assets.xcassets */,
 				8746357F1E14FCD000C3B524 /* LaunchScreen.storyboard */,
 				874635821E14FCD000C3B524 /* Info.plist */,
+				8779CDE11E59C56E00F67F74 /* MyBottleViewController.swift */,
+				8746357D1E14FCD000C3B524 /* Assets.xcassets */,
+				871E614D1E5F7A220060AA1B /* MainMenuViewController.swift */,
+				87FBEDC31E67C0BA00E2F00B /* SignUpViewController.swift */,
+				87FBEDC51E67C4E900E2F00B /* SignInViewController.swift */,
+				876D291F1E8A948600A539B4 /* MyPoints2ViewController.swift */,
+				876D29211E8AA51600A539B4 /* ChangePasswordViewController.swift */,
+				876D29231E8AB9F500A539B4 /* TipsViewController.swift */,
+				876D29251E8ABC9000A539B4 /* TipsDetailViewController.swift */,
+				872FD1F01EA2979C006F2B6C /* NotificationViewController.swift */,
+				875AA74C1EA498AD00C29031 /* Constants.swift */,
+				878627D91EDB1FDD00D08AC3 /* LoginFailedViewController.swift */,
+				87C57D521EDEB118009D3B12 /* DataModel.xcdatamodeld */,
+				87A3A8C41EE1D3EE00CEA1A2 /* ProfileViewController.swift */,
+				877A20E91EE31173001AE7DD /* MyQRViewController.swift */,
+				877A20EB1EE329D7001AE7DD /* SettingsViewController.swift */,
+				877A20ED1EE32B2F001AE7DD /* Settings2ViewController.swift */,
+				877A20EF1EE32D20001AE7DD /* MyPointsViewController.swift */,
+				877A20F11EE32DA3001AE7DD /* MyPoints3ViewController.swift */,
+				879B2D7B1F71618C004BCFEA /* QRCodeScannerViewController.swift */,
+				879B2D7D1F71A791004BCFEA /* MyBottle3ViewController.swift */,
 			);
 			path = "Pernord Customer";
 			sourceTree = "<group>";
@@ -135,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8746359B1E14FCD000C3B524 /* Build configuration list for PBXNativeTarget "Pernord Customer" */;
 			buildPhases = (
+				69E90DC395691A5BE308A3B4 /* [CP] Check Pods Manifest.lock */,
 				8746356D1E14FCD000C3B524 /* Sources */,
 				8746356E1E14FCD000C3B524 /* Frameworks */,
 				8746356F1E14FCD000C3B524 /* Resources */,
+				87BF94746F6E2A3F84F98C51 /* [CP] Embed Pods Frameworks */,
+				AD3246CF9E3CA4E3026B951F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +283,7 @@
 				TargetAttributes = {
 					874635701E14FCD000C3B524 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QT5FF6EDFK;
 						ProvisioningStyle = Automatic;
 					};
 					874635861E14FCD000C3B524 = {
@@ -257,14 +345,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69E90DC395691A5BE308A3B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87BF94746F6E2A3F84F98C51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pernord Customer/Pods-Pernord Customer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3246CF9E3CA4E3026B951F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pernord Customer/Pods-Pernord Customer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8746356D1E14FCD000C3B524 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87FBEDC61E67C4E900E2F00B /* SignInViewController.swift in Sources */,
+				878627DA1EDB1FDE00D08AC3 /* LoginFailedViewController.swift in Sources */,
+				87FBEDC41E67C0BA00E2F00B /* SignUpViewController.swift in Sources */,
+				872FD1F11EA2979C006F2B6C /* NotificationViewController.swift in Sources */,
+				876D29261E8ABC9000A539B4 /* TipsDetailViewController.swift in Sources */,
+				877A20F21EE32DA3001AE7DD /* MyPoints3ViewController.swift in Sources */,
 				874635791E14FCD000C3B524 /* SecondViewController.swift in Sources */,
+				87A3A8C51EE1D3EE00CEA1A2 /* ProfileViewController.swift in Sources */,
+				87C57D541EDEB118009D3B12 /* DataModel.xcdatamodeld in Sources */,
+				879B2D7E1F71A791004BCFEA /* MyBottle3ViewController.swift in Sources */,
+				876D29221E8AA51600A539B4 /* ChangePasswordViewController.swift in Sources */,
+				871E614E1E5F7A220060AA1B /* MainMenuViewController.swift in Sources */,
+				877A20EE1EE32B2F001AE7DD /* Settings2ViewController.swift in Sources */,
+				877A20EA1EE31173001AE7DD /* MyQRViewController.swift in Sources */,
+				875AA74D1EA498AD00C29031 /* Constants.swift in Sources */,
+				877A20F01EE32D20001AE7DD /* MyPointsViewController.swift in Sources */,
+				876D29201E8A948600A539B4 /* MyPoints2ViewController.swift in Sources */,
+				876D29241E8AB9F500A539B4 /* TipsViewController.swift in Sources */,
+				879B2D7C1F71618D004BCFEA /* QRCodeScannerViewController.swift in Sources */,
+				8779CDE21E59C56E00F67F74 /* MyBottleViewController.swift in Sources */,
 				874635751E14FCD000C3B524 /* AppDelegate.swift in Sources */,
 				874635771E14FCD000C3B524 /* FirstViewController.swift in Sources */,
+				877A20EC1EE329D7001AE7DD /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,25 +568,37 @@
 		};
 		8746359C1E14FCD000C3B524 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EC40B00A5DD61B85B58848 /* Pods-Pernord Customer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: sayapacarleeminho@hotmail.com (AS2A9LP34V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QT5FF6EDFK;
 				INFOPLIST_FILE = "Pernord Customer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.firdarinoa.Pernord-Customer";
+				PRODUCT_BUNDLE_IDENTIFIER = "firdarinoa.Pernord-Customer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8746359D1E14FCD000C3B524 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D509D9450C8340EA3148804A /* Pods-Pernord Customer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: sayapacarleeminho@hotmail.com (AS2A9LP34V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QT5FF6EDFK;
 				INFOPLIST_FILE = "Pernord Customer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.firdarinoa.Pernord-Customer";
+				PRODUCT_BUNDLE_IDENTIFIER = "firdarinoa.Pernord-Customer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,6 +675,7 @@
 				8746359D1E14FCD000C3B524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8746359E1E14FCD000C3B524 /* Build configuration list for PBXNativeTarget "Pernord CustomerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +684,7 @@
 				874635A01E14FCD000C3B524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		874635A11E14FCD000C3B524 /* Build configuration list for PBXNativeTarget "Pernord CustomerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,8 +693,22 @@
 				874635A31E14FCD000C3B524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87C57D521EDEB118009D3B12 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87C57D531EDEB118009D3B12 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 87C57D531EDEB118009D3B12 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 874635691E14FCCF00C3B524 /* Project object */;
 }
